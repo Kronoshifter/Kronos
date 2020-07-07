@@ -9,10 +9,9 @@
   },
   "libraries": {
     "tModLoader.CodeAssist/0.1.1": {
-      "sha512": "bUQ4HAiRYq8Zisms7FI9ffSf4nZHwFFZU5j8Hpc/9rFB16GOGJg2ulHV0ZDErzoAAbXBeRdO8/VbSltBwmDcpA==",
+      "sha512": "mX0SfS72ADg1viuaR1AgKsGs4uuTzn0Gw3EEkhRZ+aTZiVfSoW4umxs36ou3QXvQCRrSM5W00H2+LjGqHezTJg==",
       "type": "package",
       "path": "tmodloader.codeassist/0.1.1",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -57,11 +56,6 @@
         "net45": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
@@ -71,8 +65,7 @@
             "target": "Package",
             "version": "[0.1.*, )"
           }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Krono\\.dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
       }
     }
   }
