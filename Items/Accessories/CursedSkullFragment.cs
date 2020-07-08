@@ -4,27 +4,26 @@ using Terraria.ModLoader;
 
 namespace Kronos.Items.Accessories
 {
-    public class MutantSpore : ModItem
+    public class CursedSkullFragment : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Mutant Spore");
-            Tooltip.SetDefault("Increases your max number of minions by 1\n" +
-                               "Composed of matter, anti-matter, and it doesn't matter");
+            DisplayName.SetDefault("Cursed Skull Fragment");
+            Tooltip.SetDefault("Increases your max number of utility minions by 1");
         }
 
         public override void SetDefaults()
         {
             item.width = 20;
             item.height = 20;
-            item.value = 100;
+            item.value = Item.sellPrice(gold: 1);
             item.rare = ItemRarityID.Orange;
             item.accessory = true;
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.maxMinions += 1;
+            player.GetModPlayer<KronosPlayer>().maxUtilityMinions += 1;
         }
     }
 }
