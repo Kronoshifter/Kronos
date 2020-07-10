@@ -28,5 +28,24 @@ namespace Kronos.Items.Accessories
             player.GetModPlayer<KronosPlayer>().maxDefenseMinions += 1;
             player.GetModPlayer<KronosPlayer>().maxUtilityMinions += 1;
         }
+
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ModContent.GetInstance<MutantSpore>());
+            recipe.AddIngredient(ModContent.GetInstance<ShadowRing>());
+            recipe.AddIngredient(ModContent.GetInstance<CursedSkullFragment>());
+            recipe.AddTile(TileID.TinkerersWorkbench);
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+            
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ModContent.GetInstance<MutantSpore>());
+            recipe.AddIngredient(ModContent.GetInstance<CrimsonAmulet>());
+            recipe.AddIngredient(ModContent.GetInstance<CursedSkullFragment>());
+            recipe.AddTile(TileID.TinkerersWorkbench);
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+        }
     }
 }
