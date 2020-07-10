@@ -9,9 +9,10 @@
   },
   "libraries": {
     "tModLoader.CodeAssist/0.1.1": {
-      "sha512": "mX0SfS72ADg1viuaR1AgKsGs4uuTzn0Gw3EEkhRZ+aTZiVfSoW4umxs36ou3QXvQCRrSM5W00H2+LjGqHezTJg==",
+      "sha512": "bUQ4HAiRYq8Zisms7FI9ffSf4nZHwFFZU5j8Hpc/9rFB16GOGJg2ulHV0ZDErzoAAbXBeRdO8/VbSltBwmDcpA==",
       "type": "package",
       "path": "tmodloader.codeassist/0.1.1",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -30,32 +31,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krono\\.nuget\\packages\\": {}
+    "C:\\Users\\Krono\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
+      "projectUniqueName": "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
       "projectName": "Kronos",
-      "projectPath": "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
+      "projectPath": "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
       "packagesPath": "C:\\Users\\Krono\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\obj\\",
+      "outputPath": "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Krono\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Krono\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net45"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net45": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

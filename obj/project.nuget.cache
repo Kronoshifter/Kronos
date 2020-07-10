@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qAuLvIFT+phHtnyqZOYxSi2vEuc5M9vm6RnB1caOBYjIyuf1dvCvFyO/ZdB5nApxWdQWSOS5n87T0VTZlUujyQ==",
+  "dgSpecHash": "ZmmdPC9TTgBr3S3uuXq5BwLJOZwkGe54Za8aVX9wuC2tJewz9BXGbxEvDjiQNSPiqaaOkPkORPKuVrXj2hHGGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
+  "projectFilePath": "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krono\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
   ],

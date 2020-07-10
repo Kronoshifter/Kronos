@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj": {}
+    "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj": {
+    "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
+        "projectUniqueName": "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
         "projectName": "Kronos",
-        "projectPath": "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
+        "projectPath": "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\Kronos.csproj",
         "packagesPath": "C:\\Users\\Krono\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Krono\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\obj\\",
+        "outputPath": "C:\\Users\\Krono\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Kronos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Krono\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Krono\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net45"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,8 +43,7 @@
               "target": "Package",
               "version": "[0.1.*, )"
             }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Krono\\.dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          }
         }
       }
     }
