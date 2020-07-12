@@ -10,7 +10,7 @@ namespace Kronos.Items.Accessories
         {
             DisplayName.SetDefault("Necromancer Skull");
             Tooltip.SetDefault("Increases your max number of attack, defense, and utility minions by 1\n" +
-                               "It's neither demonic, nor does it talk");
+                               "'It's neither demonic, nor does it talk.'");
         }
 
         public override void SetDefaults()

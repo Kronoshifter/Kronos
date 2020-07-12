@@ -8,9 +8,9 @@ namespace Kronos.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Cursed Skull Fragment\n" +
-                                   "You should know better than to pick up cursed things in a dungeon!");
-            Tooltip.SetDefault("Increases your max number of utility minions by 1");
+            DisplayName.SetDefault("Cursed Skull Fragment");
+            Tooltip.SetDefault("Increases your max number of utility minions by 1\n" +
+                               "'You should know better than to pick up cursed things in a dungeon!'");
         }
 
         public override void SetDefaults()

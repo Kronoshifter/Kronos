@@ -10,7 +10,7 @@ namespace Kronos.Items.Accessories
         {
             DisplayName.SetDefault("Mutant Spore");
             Tooltip.SetDefault("Increases your max number of minions by 1\n" +
-                               "Composed of matter, antimatter, and it doesn't matter");
+                               "'Composed of matter, antimatter, and it doesn't matter'");
         }
 
         public override void SetDefaults()
