@@ -10,7 +10,7 @@ namespace Kronos.Items.Accessories
         {
             DisplayName.SetDefault("Cursed Skull Fragment");
             Tooltip.SetDefault("Increases your max number of utility minions by 1\n" +
-                               "'You should know better than to pick up cursed things in a dungeon!'");
+                               "'You should know better than to pick up a skull in a dungeon!'");
         }
 
         public override void SetDefaults()
